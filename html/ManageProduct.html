@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <h1>Managet Product</h1>
+
+    <div>
+        <h3>Add new product</h3>
+        <label>
+            <input type="text" id="productName" placeholder="Product Name">
+        </label>
+        <button onclick="addProduct()">Add</button>
+    </div>
+
+    <div>
+        <h3>Display All Product</h3>
+        <div>
+            <table >
+                <tr>
+                    <th>Product Name</th>
+                    <th></th>
+                    <th></th>
+                    <th id="totalProduct"></th>
+                </tr>
+                <tbody id="bodyTableProduct"></tbody>
+            </table>
+        </div>
+    </div>
+
+    <script src="../js/ManageProduct.js"></script>
+    <script> displayProduct() </script>
+
+</body>
+</html>
